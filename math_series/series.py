@@ -13,7 +13,7 @@ def lucas(n):
         return 2
     if n == 1:
         return 1
-    return lucas(n - 1) + lucas(n - 2)
+    return (lucas(n - 1) + lucas(n - 2))
 
 def sum_series(n, x=0, y=1):
    
